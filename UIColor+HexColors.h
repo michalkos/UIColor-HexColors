@@ -10,19 +10,19 @@
 @interface UIColor (HexColors)
 
 /**
- *  Color with Hex value and aplha
+ *  Color with Hex value and alpha
  *
  *  @param hexValue Hex value (0xFFFFFF)
- *  @param alpha    Aplha
+ *  @param alpha    Alpha
  *  @return UIColor
  */
 + (UIColor *)colorWithHexValue:(uint)hexValue andAlpha:(CGFloat)alpha;
 
 /**
- *  Color with Hex string and aplha
+ *  Color with Hex string and alpha
  *
  *  @param hexString Hex string (#FFFFFF)
- *  @param alpha     Aplha
+ *  @param alpha     Alpha
  *  @return UIColor
  */
 + (UIColor *)colorWithHexString:(NSString *)hexString andAlpha:(CGFloat)alpha;
